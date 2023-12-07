@@ -1,0 +1,4 @@
+/home/itsmeayoub/exercism/cpp/hello-world/CMakeFiles/hello-world.dir
+/home/itsmeayoub/exercism/cpp/hello-world/CMakeFiles/test_hello-world.dir
+/home/itsmeayoub/exercism/cpp/hello-world/CMakeFiles/edit_cache.dir
+/home/itsmeayoub/exercism/cpp/hello-world/CMakeFiles/rebuild_cache.dir

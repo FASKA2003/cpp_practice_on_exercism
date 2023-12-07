@@ -1,0 +1,4 @@
+/home/itsmeayoub/exercism/cpp/making-the-grade/CMakeFiles/making-the-grade.dir
+/home/itsmeayoub/exercism/cpp/making-the-grade/CMakeFiles/test_making-the-grade.dir
+/home/itsmeayoub/exercism/cpp/making-the-grade/CMakeFiles/edit_cache.dir
+/home/itsmeayoub/exercism/cpp/making-the-grade/CMakeFiles/rebuild_cache.dir
