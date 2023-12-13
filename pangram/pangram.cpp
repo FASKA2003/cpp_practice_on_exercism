@@ -17,3 +17,8 @@ bool is_pangram(std::string sentence) {
   return (valSet.size() == 26);
 }
 } // namespace pangram
+/*
+ *  The idea is to use set to store non redondant characters in the sentence,
+ * because a set store unique elements. after that check for it's size is the
+ * same as the numbers of alphabets in the english language.
+ */
