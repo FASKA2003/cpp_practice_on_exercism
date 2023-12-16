@@ -1,0 +1,1 @@
+/usr/bin/c++ -g "CMakeFiles/queen-attack.dir/queen_attack_test.cpp.o" "CMakeFiles/queen-attack.dir/queen_attack.cpp.o" "CMakeFiles/queen-attack.dir/test/tests-main.cpp.o" -o queen-attack 
