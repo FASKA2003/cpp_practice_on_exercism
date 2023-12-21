@@ -4,15 +4,16 @@
 namespace queen_attack {
 chess_board::chess_board(const std::pair<int, int> &white,
                          const std::pair<int, int> &black) {
-  if (white.first <= 0 || white.second <= 0 || black.first <= 0 ||
-      black.second <= 0) {
-    throw std::domain_error("Invalid argument");
-  } else {
-    this->white_.first = white.first;
-    this->white_.second = white.second;
-    this->black_.first = black.first;
-    this->black_.second = black.second;
+  if ((white.first < 1 || white.first > 7 || white.second < 1 ||
+       white.second > 7) ||
+      (black.second < 1 || black.second > 7 || black.first > 7)) {
+    throw std::domain_error("Invalid argument.");
   }
+  if (white == black) {
+    throw std::domain_error("Invalid argument.");
+  }
+  this->white_ = white;
+  this->black_ = black;
 }
 
 bool chess_board::can_attack() const {
