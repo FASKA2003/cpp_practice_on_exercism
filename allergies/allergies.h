@@ -9,7 +9,7 @@ public:
   int score;
   allergy_test(int score_N);
   std::unordered_set<std::string> get_allergies();
-  bool is_allergic(std::string allergy);
+  bool is_allergic_to(std::string allergy);
 };
 } // namespace allergies
 

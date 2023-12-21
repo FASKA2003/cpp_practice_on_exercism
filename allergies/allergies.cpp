@@ -16,7 +16,7 @@ std::unordered_set<std::string> allergy_test::get_allergies() {
   }
   return result;
 }
-bool allergy_test::is_allergic(const std::string allergy) {
+bool allergy_test::is_allergic_to(const std::string allergy) {
   std::unordered_set<std::string> result = get_allergies();
   if (result.find(allergy) == result.end()) {
     return false;
