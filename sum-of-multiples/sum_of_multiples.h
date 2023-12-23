@@ -1,5 +1,6 @@
 #if !defined(SUM_OF_MULTIPLES_H)
 #define SUM_OF_MULTIPLES_H
+#include <numeric>
 #include <set>
 #include <vector>
 
