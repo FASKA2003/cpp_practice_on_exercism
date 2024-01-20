@@ -1,8 +1,11 @@
-#if !defined(ANAGRAM_H)
-#define ANAGRAM_H
+#include <string>
+#include <vector>
 
 namespace anagram {
-
-}  // namespace anagram
-
-#endif // ANAGRAM_H
+  class anagram {
+    std::string const seed;
+  public:
+    anagram(std::string const& subject) : seed{ subject } {}
+    std::vector<std::string> matches(std::vector<std::string> const& candidates);
+  };
+}
