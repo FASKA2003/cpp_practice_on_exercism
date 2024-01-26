@@ -1,8 +1,11 @@
 #if !defined(HEXADECIMAL_H)
 #define HEXADECIMAL_H
+#include <cmath>
+#include <map>
+#include <string>
 
 namespace hexadecimal {
-
-}  // namespace hexadecimal
+int convert(std::string input);
+} // namespace hexadecimal
 
 #endif // HEXADECIMAL_H
