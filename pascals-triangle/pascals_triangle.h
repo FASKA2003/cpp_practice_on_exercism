@@ -1,8 +1,10 @@
-#if !defined(PASCALS_TRIANGLE_H)
-#define PASCALS_TRIANGLE_H
+#ifndef __PASCALS_TRIANGLE_H__
+#define __PASCALS_TRIANGLE_H__
+
+#include <vector>
 
 namespace pascals_triangle {
+std::vector<std::vector<int>> generate_rows(int);
+} // namespace pascals_triangle
 
-}  // namespace pascals_triangle
-
-#endif // PASCALS_TRIANGLE_H
+#endif
