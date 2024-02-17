@@ -97,7 +97,7 @@ TEST_CASE("PopAndPushList")
     REQUIRE(first == 1);
     REQUIRE(second == 2);
     REQUIRE(third == 3);
-    REQUIRE(forth == 4);
+   REQUIRE(forth == 4);
     REQUIRE(fifth == 5);
     REQUIRE(sixth == 6);
 }
